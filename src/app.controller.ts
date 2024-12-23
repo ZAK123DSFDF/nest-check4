@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): any {
+    console.log('request');
     return this.appService.getHello();
   }
   @Post('setCookie')
