@@ -24,7 +24,7 @@ export class AppService {
   }
   processBody(body: any): { message: string } {
     try {
-      const result = 'hello';
+      const result = 'heloo';
       if (result) {
         console.error('Error: Invalid or empty body.');
         throw new BadRequestException('Body is missing or invalid.');
